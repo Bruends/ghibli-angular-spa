@@ -1,0 +1,24 @@
+.film {
+  max-width: 12rem;
+  border: 1px solid #e6e6e6;
+}
+
+.banner {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.film-info {
+  text-align: center;
+}
+
+.title {
+  color: #222;
+  font-size: 1.2rem;
+}
+
+.original-title {
+  color: #444;
+  font-size: 1rem;
+
+}
