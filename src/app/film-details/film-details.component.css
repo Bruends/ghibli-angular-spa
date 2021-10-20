@@ -1,0 +1,32 @@
+.film-bg {
+  padding: 4rem;
+}
+
+.film-imgs img {  
+  max-width: 100%;
+  max-height: 40rem;
+}
+
+.film-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.film-original-title {
+  text-align: center;  
+  color: #444;
+}
+
+.film-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+
+.film-info {
+  flex: 1;
+  min-width: 20rem;
+  padding: 2rem;
+}

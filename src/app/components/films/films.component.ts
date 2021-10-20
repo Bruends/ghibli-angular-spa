@@ -9,7 +9,7 @@ import {FilmsService} from '../../services/films.service';
   styleUrls: ['./films.component.css']
 })
 export class FilmsComponent implements OnInit {
-  films: Film[] = filmsMock;
+  films: Film[];
 
   constructor(private filmsService: FilmsService) { }
 
