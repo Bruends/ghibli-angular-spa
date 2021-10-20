@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FilmsService } from 'src/app/services/films.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,9 +9,9 @@ import { FilmsService } from 'src/app/services/films.service';
 })
 export class HeaderComponent implements OnInit {
     
-  constructor(private filmsService: FilmsService) {     
+  constructor(private filmsService: FilmsService, private router: Router ) {     
     
-      
+    
   }
 
   ngOnInit(): void {
@@ -20,5 +21,8 @@ export class HeaderComponent implements OnInit {
     this.filmsService.searchFilm(event.target.value);
   } 
 
+  isRoute(route: string): boolean {
+    return this.router.url === route;
+  }
   
 }

@@ -9,7 +9,7 @@
 }
 
 .film:hover {
-  box-shadow: 4px 4px 4px #e6e6e6;
+  box-shadow: 2px 2px 2px #e6e6e6;
 }
 
 .banner {
@@ -30,5 +30,8 @@
 .original-title {
   color: #444;
   font-size: 0.9rem;
+}
 
+.link {
+  color: #444;
 }

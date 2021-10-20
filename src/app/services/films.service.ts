@@ -11,7 +11,7 @@ export class FilmsService {
   subject = new Subject<any>();
 
   constructor(private apiService: ApiService) { 
-    apiService.getFilms()
+    this.apiService.getFilms()
       .subscribe(apiFilms => {
         this.films = apiFilms
         this.subject.next(this.films)

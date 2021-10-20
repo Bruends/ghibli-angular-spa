@@ -4,7 +4,7 @@
     スタジオジブリ
   </div>  
 
-  <div class="search-container">
+  <div *ngIf="isRoute('/')" class="search-container">
     <input 
       class="search-input"
       type="text"
@@ -13,4 +13,7 @@
     >
     
   </div>  
+  <div *ngIf="!isRoute('/')" class="return-container">
+    <a class="return-link" [routerLink]="['/']">Voltar</a>
+  </div>
 </header>

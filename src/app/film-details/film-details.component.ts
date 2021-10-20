@@ -10,7 +10,7 @@ import { filmsMock } from 'films-mock';
   styleUrls: ['./film-details.component.css']
 })
 export class FilmDetailsComponent implements OnInit {
-  film: Film = filmsMock[0]; 
+  film: Film; 
   id: string | null;
 
   constructor(
