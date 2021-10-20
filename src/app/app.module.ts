@@ -1,22 +1,29 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 import { FilmsComponent } from './components/films/films.component';
 import { FilmItemComponent } from './components/film-item/film-item.component';
+import { HeaderComponent } from './components/header/header.component';
+import { BannerComponent } from './components/banner/banner.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     FilmsComponent,
-    FilmItemComponent
+    FilmItemComponent,
+    HeaderComponent,
+    BannerComponent,    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

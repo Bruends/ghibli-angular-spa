@@ -15,5 +15,4 @@ export class ApiService {
   getFilms(): Observable<Film[]> {
     return this.http.get<Film[]>(this.url)
   }
-
 }
