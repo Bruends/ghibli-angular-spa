@@ -1,4 +1,4 @@
-# GhibliAppAngular
+# Ghibli App Angular
 
 Primeiro projeto pessoal em angular. básicamente uma SPA usando a [API do Estudio Ghibli](https://ghibliapi.herokuapp.com/).
 
@@ -13,7 +13,7 @@ Primeiro projeto pessoal em angular. básicamente uma SPA usando a [API do Estud
 - Consumo de Api(REST) com HttpModule
 - Injeção de Dependêcias
 
-## Features: 
+## Features
 - Loading dos filmes com Observables
 - Pesquisa de filmes
 - Rota de detalhes para cada Filme
