@@ -7,14 +7,14 @@ Primeiro projeto pessoal em angular. básicamente uma SPA usando a [API do Estud
 ![demonstração do APP](gif/preview.gif)
 
 ## Conceitos Estudados
+- Angular (Components, Services, Modules, Cli, ...etc)
 - Observables (RxJS)
 - Rotas
-- consumo de Api com HttpModule
-- Angular (Components, Services, Cli, ...etc)
+- Consumo de Api(REST) com HttpModule
 - Injeção de Dependêcias
 
 ## Features: 
-- Loading dos filmes Com Observables
+- Loading dos filmes com Observables
 - Pesquisa de filmes
 - Rota de detalhes para cada Filme
 
