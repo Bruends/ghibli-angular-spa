@@ -1,10 +1,22 @@
 # GhibliAppAngular
 
-Primeiro projeto pessoal em angular. básicamente um Front-End usando a [API do Estudio Ghibli](ghibliapi.herokuapp.com/)
+Primeiro projeto pessoal em angular. básicamente uma SPA usando a [API do Estudio Ghibli](https://ghibliapi.herokuapp.com/).
 
-#### Demonstração:
+## Demonstração:
 
 ![demonstração do APP](gif/preview.gif)
+
+## Conceitos Estudados
+- Observables (RxJS)
+- Rotas
+- consumo de Api com HttpModule
+- Angular (Components, Services, Cli, ...etc)
+- Injeção de Dependêcias
+
+## Features: 
+- Loading dos filmes Com Observables
+- Pesquisa de filmes
+- Rota de detalhes para cada Filme
 
 ## Instalando
 
@@ -21,6 +33,7 @@ use o comando:
 ```bash
 ng serve
 ```
+E abra o navegador em `localhost:4200`.
 
 ## Licença
 
