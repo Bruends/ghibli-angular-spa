@@ -5,12 +5,10 @@
   flex-basis: 30%;
   cursor: pointer;
   transition: .5s;
-  border-radius: 0 0 4px 4px;
+  border-radius: 1rem;
+  border: 2px solid #e6e6e6;
 }
 
-.film:hover {
-  box-shadow: 2px 2px 2px #e6e6e6;
-}
 
 .banner {
   border-radius: 4px 4px 0 0;
@@ -33,5 +31,17 @@
 }
 
 .link {
-  color: #444;
+  background: #610094;
+  display: block;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 1rem;
+  margin: 0.5rem auto;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.link:hover {
+  background-color: #8E05C2;
 }

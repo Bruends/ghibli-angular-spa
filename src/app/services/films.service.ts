@@ -11,10 +11,14 @@ export class FilmsService {
   subject = new Subject<any>();
 
   constructor(private apiService: ApiService) { 
+    this.getFilms();
+  }
+
+  getFilms(): void {
     this.apiService.getFilms()
       .subscribe(apiFilms => {
-        this.films = apiFilms
-        this.subject.next(this.films)
+        this.films = apiFilms;
+        this.subject.next(this.films);
       })
   }
 
@@ -26,12 +30,15 @@ export class FilmsService {
   searchFilm(search: string): void {
     if(search) {
       const searchResult: Film[] = this.films.filter(film => {
-        return film.title.includes(search)
+        const titleLower = film.title.toLowerCase();
+        const searchLower = search.toLowerCase();
+
+        return titleLower.includes(searchLower);
       })
       
-      this.subject.next(searchResult)
+      this.subject.next(searchResult);
     } else {
-      this.subject.next(this.films)
+      this.subject.next(this.films);
     }
   }
 

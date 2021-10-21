@@ -15,4 +15,8 @@ export class ApiService {
   getFilms(): Observable<Film[]> {
     return this.http.get<Film[]>(this.url)
   }
+
+  getSingleFilm(id: string):Observable<Film> {
+    return this.http.get<Film>(this.url + id);
+  }
 }

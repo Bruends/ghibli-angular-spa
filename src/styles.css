@@ -10,3 +10,13 @@ body {
   background-color: #111;
   background-color: #fff;
 }
+
+.line:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 4px;
+  border-radius: 1rem;
+  margin: 1.5rem auto;
+  background-color: #610094;
+}
