@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Film } from '../interfaces/Film';
 import { ApiService } from '../services/api.service';
-import { filmsMock } from 'films-mock';
 
 @Component({
   selector: 'app-film-details',
   templateUrl: './film-details.component.html',
   styleUrls: ['./film-details.component.css']
 })
+
 export class FilmDetailsComponent implements OnInit {
   film: Film; 
-  id: string | null;
+  id: string | null; 
 
   constructor(
     private activatedRoute: ActivatedRoute,

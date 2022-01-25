@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { FilmsComponent } from './components/films/films.component';
+import { FilmsComponent } from './films/films.component';
 import { FilmItemComponent } from './components/film-item/film-item.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
@@ -19,7 +19,7 @@ import { FilmDetailsComponent } from './film-details/film-details.component';
     FilmItemComponent,
     HeaderComponent,
     BannerComponent,
-    FilmDetailsComponent,    
+    FilmDetailsComponent,
   ],
   imports: [
     BrowserModule,

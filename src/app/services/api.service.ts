@@ -13,7 +13,7 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   getFilms(): Observable<Film[]> {
-    return this.http.get<Film[]>(this.url)
+    return this.http.get<Film[]>(this.url);
   }
 
   getSingleFilm(id: string):Observable<Film> {
